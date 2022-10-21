@@ -19,6 +19,19 @@ header {
   font-size: 20px;
 }
 
+.careers {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0 4rem 0;
+}
+.careers button {
+  color: white;
+  background-color: #e97300;
+  font-size: 24px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: none;
+}
+
 .row {
   display: flex;
   flex-direction: row;
