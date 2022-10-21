@@ -1,0 +1,10 @@
+@mixin section-details($width, $height) {
+    padding-left: 2rem;
+    line-height: 31px;
+    width: $width;
+    height: $height;
+}
+@mixin display-center {
+    display: flex;
+    justify-content: center;
+}
