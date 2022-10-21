@@ -1,0 +1,25 @@
+.home-loans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+        @include display-center;
+        align-items: center;
+        color: white;
+        font-size: 24px;
+        background-color: $color-2;
+        height: 60px;
+        width: 90vw;
+        margin-bottom: 0;
+    }
+    span {
+        @include section-details(88vw, 10rem);
+        @include display-center;
+        align-items: center;
+        background-color: #eaf7f5;
+    }
+    p {
+        color: $primary-color;
+        padding: 2rem 4rem 2rem 4rem;
+    }
+}
