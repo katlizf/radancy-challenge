@@ -1,0 +1,10 @@
+.section-title {
+    @include display-center;
+    color: $color-2;
+    font-size: 30px;
+}
+.investment p {
+    @include section-details(95%, 4rem);
+    color: $primary-color;
+    font-size: 20px;
+}
