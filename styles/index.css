@@ -1,10 +1,83 @@
+header {
+  height: 24px;
+  padding: 3rem 0 3rem 2rem;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  color: #00945f;
+  font-size: 30px;
+}
+
+.investment p {
+  padding-left: 2rem;
+  line-height: 31px;
+  width: 95%;
+  height: 4rem;
+  color: #888888;
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12rem;
+}
+.row row:last-child {
+  margin-bottom: 6rem;
+}
+.row .advantage-subsection {
+  padding-left: 2rem;
+  line-height: 31px;
+  width: 45vw;
+  height: 10rem;
+}
+.row .advantage-subsection h3 {
+  color: #00945f;
+  font-size: 24px;
+}
+.row .advantage-subsection p {
+  color: #888888;
+  font-size: 18px;
+}
+.row .advantage-subsection a {
+  color: #759b24;
+}
+
+.home-loans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-loans h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  background-color: #00945f;
+  height: 60px;
+  width: 90vw;
+  margin-bottom: 0;
+}
+.home-loans span {
+  padding-left: 2rem;
+  line-height: 31px;
+  width: 88vw;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaf7f5;
+}
+.home-loans p {
+  color: #888888;
+  padding: 2rem 4rem 2rem 4rem;
+}
+
 body {
   font: 100% Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-}
-
-header {
-  color: #02945f;
-  font-size: 24px;
 }/*# sourceMappingURL=index.css.map */

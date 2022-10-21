@@ -1,8 +1,16 @@
 $font-stack: Arial, Helvetica, sans-serif;
 
+// Shared styles
 @import '_colors';
 @import '_breakpoints';
-@import '_header.scss';
+@import '_mixins';
+
+// Sections
+@import './sections/_header';
+@import './sections/_investmentInYou';
+@import './sections/_citizensAdvantage';
+@import './sections/_oneHomeLoans';
+
 
 body {
     font: 100% $font-stack;
