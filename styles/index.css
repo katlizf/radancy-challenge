@@ -30,8 +30,12 @@ header {
 .row .advantage-subsection {
   padding-left: 2rem;
   line-height: 31px;
-  width: 45vw;
+  width: 42vw;
   height: 10rem;
+  padding-right: 7rem;
+}
+.row .advantage-subsection .advantage-subsection:last-child {
+  padding-right: 0;
 }
 .row .advantage-subsection h3 {
   color: #00945f;
@@ -43,6 +47,7 @@ header {
 }
 .row .advantage-subsection a {
   color: #759b24;
+  text-decoration: none;
 }
 
 .home-loans {

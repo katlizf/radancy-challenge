@@ -6,7 +6,11 @@
         margin-bottom: 6rem;
     }
     .advantage-subsection {
-        @include section-details(45vw, 10rem);
+        @include section-details(42vw, 10rem);
+        padding-right: 7rem;
+        .advantage-subsection:last-child {
+            padding-right: 0;
+        }
         h3 {
             color: $color-2;
             font-size: 24px;
@@ -17,6 +21,7 @@
         }
         a {
             color: $color-4;
+            text-decoration: none;
         }
     }
 }
