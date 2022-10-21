@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12rem;
+    row:last-child {
+        margin-bottom: 6rem;
+    }
+    .advantage-subsection {
+        @include section-details(45vw, 10rem);
+        h3 {
+            color: $color-2;
+            font-size: 24px;
+        }
+        p {
+            color: $primary-color;
+            font-size: 18px;
+        }
+        a {
+            color: $color-4;
+        }
+    }
+}
