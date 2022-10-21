@@ -1,0 +1,12 @@
+$font-stack: Arial, Helvetica, sans-serif;
+$primary-color: #888888;
+$color-2: #02945f;
+$color-3: #e97300;
+$color-4: #759b24;
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    margin: 0;
+    padding: 0;
+}
