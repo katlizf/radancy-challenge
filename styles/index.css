@@ -54,6 +54,7 @@ header {
   margin: 4rem 0 4rem 0;
 }
 .careers button {
+  cursor: pointer;
   color: white;
   background-color: #e97300;
   font-size: 24px;
