@@ -26,6 +26,8 @@
     .quote {
         text-align: center;
         color: $primary-color;
+        background-image: url('../../images/quoteBackground.gif');
+        background-repeat: no-repeat;
     }
     .quote-author {
         text-align: center;

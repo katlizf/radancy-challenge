@@ -173,6 +173,8 @@ header {
 .quotes .quote {
   text-align: center;
   color: #888888;
+  background-image: url("../../images/quoteBackground.gif");
+  background-repeat: no-repeat;
 }
 .quotes .quote-author {
   text-align: center;
