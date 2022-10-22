@@ -1,0 +1,23 @@
+.header-img {
+    height: 34rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    img {
+        position: absolute;
+        height: 34rem;
+        width: 100vw;
+        z-index: 1;  
+    }
+    div {
+        position: absolute;
+        background-color: rgb(44, 116, 95, 0.9);
+        height: 34rem;
+        width: 50vw;
+        margin-left: 50vw;
+        transform-origin: bottom left;
+        -ms-transform: skew(-15deg, 0deg);
+        -webkit-transform: skew(-15deg, 0deg);
+        transform: skew(-15deg, 0deg);
+        z-index: 99;
+    }
+}
