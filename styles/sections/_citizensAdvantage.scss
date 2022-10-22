@@ -1,27 +1,47 @@
-.row {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 12rem;
-    row:last-child {
-        margin-bottom: 6rem;
+.advantage {
+    h2 {
+        @include display-center;
+        color: $color-2;
+        font-size: 30px;        
     }
-    .advantage-subsection {
-        @include section-details(42vw, 10rem);
-        padding-right: 7rem;
-        .advantage-subsection:last-child {
-            padding-right: 0;
+    .title-underline {
+        @include display-center;
+        background: $color-2;
+        height: 2px;
+        width: 6rem;
+        border: 0;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 12rem;
+        .section-divider {
+            background: $primary-color;
+            height: 9rem;
+            width: 1px;
+            border: 0;
+            margin-top: 3rem;
         }
-        h3 {
-            color: $color-2;
-            font-size: 24px;
+        div {
+            @include section-details(42vw, 10rem);
+            h3 {
+                color: $color-2;
+                font-size: 24px;
+            }
+            p {
+                color: $primary-color;
+                font-size: 18px;
+            }
+            a {
+                color: $color-4;
+                text-decoration: none;
+            }
         }
-        p {
-            color: $primary-color;
-            font-size: 18px;
+        div:last-child {
+            margin-right: 2rem;
         }
-        a {
-            color: $color-4;
-            text-decoration: none;
-        }
+    }
+    .row:last-child {
+        margin-bottom: 6rem;
     }
 }
