@@ -28,6 +28,9 @@
             width: 1px;
             border: 0;
             margin-top: 3rem;
+            @include lg {
+                height: 17rem;
+            }
             @include md {
                 height: 1px;
                 width: 85vw;
@@ -36,6 +39,9 @@
         }
         div {
             @include section-details(42vw, 10rem);
+            @include lg {
+                @include section-details(38vw, 10rem);
+            }
             @include md {
                 @include section-details(80vw, fit-content);
             }
