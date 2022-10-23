@@ -218,6 +218,12 @@ header {
   width: 90vw;
   margin-bottom: 0;
 }
+@media (max-width: 720px) {
+  .home-loans h3 {
+    height: 100px;
+    width: 80vw;
+  }
+}
 .home-loans span {
   padding-left: 2rem;
   line-height: 31px;
@@ -228,9 +234,24 @@ header {
   align-items: center;
   background-color: #eaf7f5;
 }
+@media (max-width: 720px) {
+  .home-loans span {
+    padding-left: 2rem;
+    line-height: 31px;
+    width: 72vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
 .home-loans p {
   color: #888888;
   padding: 2rem 4rem 2rem 4rem;
+}
+@media (max-width: 720px) {
+  .home-loans p {
+    padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+  }
 }
 
 .quotes {

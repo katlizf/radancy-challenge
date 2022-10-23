@@ -11,15 +11,25 @@
         height: 60px;
         width: 90vw;
         margin-bottom: 0;
+        @include md {
+            height: 100px;
+            width: 80vw;
+        }
     }
     span {
         @include section-details(88vw, 10rem);
         @include display-center;
         align-items: center;
         background-color: #eaf7f5;
+        @include md {
+            @include section-details (72vw, fit-content);
+        }
     }
     p {
         color: $primary-color;
         padding: 2rem 4rem 2rem 4rem;
+        @include md {
+            padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+        }
     }
 }
