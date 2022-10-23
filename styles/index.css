@@ -399,6 +399,12 @@ header {
   height: 24px;
   margin-right: 5px;
 }
+@media (max-width: 960px) {
+  .footer img {
+    width: 30px;
+    height: 30px;
+  }
+}
 .footer p {
   color: #888888;
   font-size: 11px;

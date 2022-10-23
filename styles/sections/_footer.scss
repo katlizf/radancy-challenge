@@ -12,6 +12,10 @@
         width: 24px;
         height: 24px;
         margin-right: 5px;
+        @include lg {
+            width: 30px;
+            height: 30px;
+        }
     }
     p {
         color: $primary-color;
