@@ -261,6 +261,12 @@ header {
   margin-top: 5rem;
   margin-bottom: 8rem;
 }
+@media (max-width: 720px) {
+  .quotes {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
 .quotes .quote-container {
   display: flex;
   flex-direction: column;
@@ -270,10 +276,28 @@ header {
   font-style: italic;
   width: 13vw;
 }
+@media (max-width: 720px) {
+  .quotes .quote-container {
+    font-size: 20px;
+    width: 80vw;
+    padding-left: 2rem;
+  }
+}
 .quotes .quote-container:nth-child(2) {
-  width: 30vw;
-  padding-left: 14rem;
-  padding-right: 14em;
+  width: 25vw;
+  padding: 0 12rem 0 12rem;
+}
+@media (max-width: 960px) {
+  .quotes .quote-container:nth-child(2) {
+    width: 30vw;
+    padding: 0 6rem 0 6rem;
+  }
+}
+@media (max-width: 720px) {
+  .quotes .quote-container:nth-child(2) {
+    width: 80vw;
+    padding: 1rem 0 1rem 2rem;
+  }
 }
 .quotes .quote-author-pic {
   text-align: center;
