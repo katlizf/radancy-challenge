@@ -2,11 +2,26 @@
     height: 34rem;
     margin-top: 2rem;
     margin-bottom: 5rem;
-    img {
+    @include md {
+        height: 13rem;
+        margin-top: 0;
+    }
+    .large-img {
         position: absolute;
         height: 34rem;
         width: 100vw;
-        z-index: 1;  
+        z-index: 1;
+        @include md {
+            display: none;
+            height: 10rem;
+        }
+    }
+    .small-img {
+        display: none;
+        @include md {
+            display: block;
+            width: 100%;
+        }
     }
     div {
         position: absolute;
@@ -19,5 +34,9 @@
         -webkit-transform: skew(-15deg, 0deg);
         transform: skew(-15deg, 0deg);
         z-index: 99;
+        @include md {
+            display: none;
+            height: 0;
+        }
     }
 }

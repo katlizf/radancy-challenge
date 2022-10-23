@@ -2,17 +2,46 @@ header {
   height: 24px;
   padding: 3rem 0 3rem 2rem;
 }
+@media (max-width: 720px) {
+  header {
+    display: flex;
+    justify-content: center;
+    padding: none;
+    height: 2.5rem;
+  }
+}
 
 .header-img {
   height: 34rem;
   margin-top: 2rem;
   margin-bottom: 5rem;
 }
-.header-img img {
+@media (max-width: 720px) {
+  .header-img {
+    height: 13rem;
+    margin-top: 0;
+  }
+}
+.header-img .large-img {
   position: absolute;
   height: 34rem;
   width: 100vw;
   z-index: 1;
+}
+@media (max-width: 720px) {
+  .header-img .large-img {
+    display: none;
+    height: 10rem;
+  }
+}
+.header-img .small-img {
+  display: none;
+}
+@media (max-width: 720px) {
+  .header-img .small-img {
+    display: block;
+    width: 100%;
+  }
 }
 .header-img div {
   position: absolute;
@@ -24,7 +53,19 @@ header {
   transform: skew(-15deg, 0deg);
   z-index: 99;
 }
+@media (max-width: 720px) {
+  .header-img div {
+    display: none;
+    height: 0;
+  }
+}
 
+.investment h2 {
+  display: flex;
+  justify-content: center;
+  color: #00945f;
+  font-size: 30px;
+}
 .investment hr {
   display: flex;
   justify-content: center;
@@ -33,12 +74,6 @@ header {
   border: 0;
   width: 6rem;
 }
-.investment h2 {
-  display: flex;
-  justify-content: center;
-  color: #00945f;
-  font-size: 30px;
-}
 .investment p {
   padding-left: 2rem;
   line-height: 31px;
@@ -46,6 +81,14 @@ header {
   height: 4rem;
   color: #888888;
   font-size: 20px;
+}
+@media (max-width: 480px) {
+  .investment p {
+    padding-left: 2rem;
+    line-height: 31px;
+    width: 90%;
+    height: 14rem;
+  }
 }
 
 .careers {
