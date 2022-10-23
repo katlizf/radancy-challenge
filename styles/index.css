@@ -92,6 +92,14 @@ header {
   color: #888888;
   font-size: 20px;
 }
+@media (max-width: 960px) {
+  .investment p {
+    padding-left: 2rem;
+    line-height: 31px;
+    width: 95%;
+    height: 6rem;
+  }
+}
 @media (max-width: 480px) {
   .investment p {
     padding-left: 2rem;

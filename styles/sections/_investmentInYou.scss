@@ -2,7 +2,7 @@
     h2 {
         @include display-center;
         color: $color-2;
-        font-size: 30px;        
+        font-size: 30px;
     }
     hr {
         @include display-center;
@@ -15,6 +15,9 @@
         @include section-details(95%, 4rem);
         color: $primary-color;
         font-size: 20px;
+        @include lg {
+            @include section-details(95%, 6rem);
+        }
         @include sm {
             @include section-details(85%, 14rem);
         }
