@@ -21,6 +21,9 @@
         @include display-center;
         align-items: center;
         background-color: #eaf7f5;
+        @include lg {
+            @include section-details(86vw, fit-content);
+        }
         @include md {
             @include section-details (72vw, fit-content);
         }
@@ -28,6 +31,9 @@
     p {
         color: $primary-color;
         padding: 2rem 4rem 2rem 4rem;
+        @include lg {
+            padding: 1rem 2rem 1rem 2rem;
+        }
         @include md {
             padding: 0.5rem 0.25rem 0.5rem 0.25rem;
         }

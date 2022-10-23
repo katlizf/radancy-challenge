@@ -234,6 +234,16 @@ header {
   align-items: center;
   background-color: #eaf7f5;
 }
+@media (max-width: 960px) {
+  .home-loans span {
+    padding-left: 2rem;
+    line-height: 31px;
+    width: 86vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
 @media (max-width: 720px) {
   .home-loans span {
     padding-left: 2rem;
@@ -247,6 +257,11 @@ header {
 .home-loans p {
   color: #888888;
   padding: 2rem 4rem 2rem 4rem;
+}
+@media (max-width: 960px) {
+  .home-loans p {
+    padding: 1rem 2rem 1rem 2rem;
+  }
 }
 @media (max-width: 720px) {
   .home-loans p {
