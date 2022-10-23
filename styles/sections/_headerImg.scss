@@ -3,8 +3,11 @@
     margin-top: 2rem;
     margin-bottom: 5rem;
     @include md {
-        height: 13rem;
+        height: 25rem;
         margin-top: 0;
+    }
+    @include sm {
+        height: 13rem;
     }
     .large-img {
         position: absolute;
