@@ -53,17 +53,11 @@
                 color: $primary-color;
                 font-size: 18px;
                 line-height: 31px;
-                @include lg {
-                    font-size: 20px;
-                }
             }
             a {
                 color: $color-4;
                 text-decoration: none;
                 font-size: 18px;
-                @include lg {
-                    font-size: 20px;
-                }
             }
         }
         div:last-child {

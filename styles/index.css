@@ -205,20 +205,10 @@ header {
   font-size: 18px;
   line-height: 31px;
 }
-@media (max-width: 960px) {
-  .advantage .row div p {
-    font-size: 20px;
-  }
-}
 .advantage .row div a {
   color: #759b24;
   text-decoration: none;
   font-size: 18px;
-}
-@media (max-width: 960px) {
-  .advantage .row div a {
-    font-size: 20px;
-  }
 }
 .advantage .row div:last-child {
   margin-right: 2rem;
