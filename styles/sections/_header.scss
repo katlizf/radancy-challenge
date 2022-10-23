@@ -3,7 +3,8 @@ header {
     padding: 3rem 0 3rem 2rem;
     @include md {
         @include display-center;
-        padding: none;
         height: 2.5rem;
+        padding: none;
+        
     }
 }

@@ -8,8 +8,9 @@
         @include display-center;
         background: $color-2;
         height: 2px;
-        border: 0;
         width: 6rem;
+        border: 0;
+        
     }
     p {
         @include section-details(95%, 4rem);

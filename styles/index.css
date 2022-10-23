@@ -6,8 +6,8 @@ header {
   header {
     display: flex;
     justify-content: center;
-    padding: none;
     height: 2.5rem;
+    padding: none;
   }
 }
 
@@ -81,8 +81,8 @@ header {
   justify-content: center;
   background: #00945f;
   height: 2px;
-  border: 0;
   width: 6rem;
+  border: 0;
 }
 .investment p {
   padding-left: 2rem;
@@ -203,6 +203,7 @@ header {
 .advantage .row div p {
   color: #888888;
   font-size: 18px;
+  line-height: 31px;
 }
 .advantage .row div a {
   color: #759b24;
@@ -299,16 +300,22 @@ header {
 }
 .home-loans p {
   color: #888888;
-  padding: 2rem 4rem 2rem 4rem;
+  padding: 2rem 0.5rem 2rem 0.5rem;
 }
 @media (max-width: 960px) {
   .home-loans p {
     padding: 1rem 2rem 1rem 2rem;
+    font-size: 20px;
   }
 }
 @media (max-width: 720px) {
   .home-loans p {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+  }
+}
+@media (max-width: 480px) {
+  .home-loans p {
+    padding: 0 1rem 0 0;
   }
 }
 
@@ -321,8 +328,8 @@ header {
 }
 @media (max-width: 720px) {
   .quotes {
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
   }
 }
 .quotes .quote-container {
