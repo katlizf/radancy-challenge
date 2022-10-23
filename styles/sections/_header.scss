@@ -1,8 +1,9 @@
 header {
     height: 24px;
     padding: 3rem 0 3rem 2rem;
-    @include respond-to("md") {
+    @include md {
         @include display-center;
-        padding: none ;
+        padding: none;
+        height: 2.5rem;
     }
 }
