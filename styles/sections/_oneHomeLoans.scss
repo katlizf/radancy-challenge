@@ -27,6 +27,9 @@
             @include section-details(86vw, fit-content);
         }
         @include md {
+            @include section-details (76vw, fit-content);
+        }
+        @include sm {
             @include section-details (72vw, fit-content);
         }
     }

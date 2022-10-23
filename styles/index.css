@@ -273,6 +273,16 @@ header {
   .home-loans span {
     padding-left: 2rem;
     line-height: 31px;
+    width: 76vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+@media (max-width: 480px) {
+  .home-loans span {
+    padding-left: 2rem;
+    line-height: 31px;
     width: 72vw;
     height: -webkit-fit-content;
     height: -moz-fit-content;
