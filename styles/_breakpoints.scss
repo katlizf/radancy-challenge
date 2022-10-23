@@ -16,7 +16,7 @@ $breakpoints: (
     }
 }
 @mixin lg {
-    @media (max-width: map-get($breakpoinlg, "lg")) {
+    @media (max-width: map-get($breakpoints, "lg")) {
         @content;
     }
 }
