@@ -116,6 +116,11 @@ header {
   color: #00945f;
   font-size: 30px;
 }
+@media (max-width: 720px) {
+  .advantage h2 {
+    text-align: center;
+  }
+}
 .advantage .title-underline {
   display: flex;
   justify-content: center;

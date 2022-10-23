@@ -3,6 +3,9 @@
         @include display-center;
         color: $color-2;
         font-size: 30px;
+        @include md {
+            text-align: center;
+        }
     }
     .title-underline {
         @include display-center;
