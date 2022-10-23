@@ -16,6 +16,11 @@ header {
   margin-top: 2rem;
   margin-bottom: 5rem;
 }
+@media (max-width: 960px) {
+  .header-img {
+    height: 30rem;
+  }
+}
 @media (max-width: 720px) {
   .header-img {
     height: 25rem;
@@ -33,7 +38,7 @@ header {
   width: 100vw;
   z-index: 1;
 }
-@media (max-width: 720px) {
+@media (max-width: 960px) {
   .header-img .large-img {
     display: none;
     height: 10rem;
@@ -42,7 +47,7 @@ header {
 .header-img .small-img {
   display: none;
 }
-@media (max-width: 720px) {
+@media (max-width: 960px) {
   .header-img .small-img {
     display: block;
     width: 100%;
@@ -58,7 +63,7 @@ header {
   transform: skew(-15deg, 0deg);
   z-index: 99;
 }
-@media (max-width: 720px) {
+@media (max-width: 960px) {
   .header-img div {
     display: none;
     height: 0;

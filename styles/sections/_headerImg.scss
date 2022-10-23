@@ -2,6 +2,9 @@
     height: 34rem;
     margin-top: 2rem;
     margin-bottom: 5rem;
+    @include lg {
+        height: 30rem;
+    }
     @include md {
         height: 25rem;
         margin-top: 0;
@@ -14,14 +17,14 @@
         height: 34rem;
         width: 100vw;
         z-index: 1;
-        @include md {
+        @include lg {
             display: none;
             height: 10rem;
         }
     }
     .small-img {
         display: none;
-        @include md {
+        @include lg {
             display: block;
             width: 100%;
         }
@@ -37,7 +40,7 @@
         -webkit-transform: skew(-15deg, 0deg);
         transform: skew(-15deg, 0deg);
         z-index: 99;
-        @include md {
+        @include lg {
             display: none;
             height: 0;
         }
